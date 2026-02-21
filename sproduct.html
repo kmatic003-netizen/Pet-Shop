@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4dcdfcb8b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <section id="header">
+      <a href="index.html"
+        ><img src="img/logo.png" class="logo" alt="logo"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li>
+            <a class="active" href="sproduct.html">Product</a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <div class="cart-container">
+              <div class="icon-cart">
+                <svg
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 18 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+                  />
+                </svg>
+                <span>0</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-outdent"></i>
+      </div>
+    </section>
+
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart"></div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">Check Out</button>
+      </div>
+    </div>
+
+    <!-- PRODUCT DETAILS -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img id="MainImg" src="" width="100%" alt="Product Image" />
+        <div class="small-img-group" id="smallImgs">
+          <!-- Slike će biti dodate iz index.js -->
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Home / Product</h6>
+        <h4></h4>
+        <!-- Ime proizvoda -->
+        <h2></h2>
+        <!-- Cena proizvoda -->
+        <input type="number" value="1" />
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span></span>
+        <!-- Opis proizvoda -->
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>.
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section-p1">
+      <div class="col">
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 123 Pet Street, Novi Sad, Serbia</p>
+        <p><strong>Phone:</strong> +381 60 123 4567</p>
+        <p><strong>Hours:</strong> 09:00 - 21:00, Mon - Sat</p>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="shop.html">Shop</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="app" />
+          <img src="img/pay/play.jpg" alt="play" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="pay" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2025, PetShop — All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <title>Pet Shop</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" alt="logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li>
+            <a class="active" href="about.html">About</a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <div class="cart-container">
+              <div class="icon-cart">
+                <svg
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 18 20"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+                  />
+                </svg>
+                <span>0</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"
+          ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+        ></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart"></div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">Check Out</button>
+      </div>
+    </div>
+
+    <section id="page-header" class="about-header">
+      <h2>#Welcome</h2>
+      <p>
+        We are passionate about pets and their happiness. From toys to
+        nutrition, we have everything your furry friend needs.🐾
+      </p>
+    </section>
+
+    <section id="about-head" id="section-p1">
+      <img src="img/about/welcome.png" alt="" />
+      <div>
+        <h2>Our mission</h2>
+        <p>
+          Our mission is to provide high-quality products and exceptional
+          service for pets and their owners, making every pet’s life happier and
+          healthier. We strive to create a safe and enjoyable environment for
+          pets of all shapes and sizes, while offering expert advice to help pet
+          parents make informed decisions. By focusing on care, love, and
+          attention to detail, we aim to build long-lasting relationships with
+          both pets and their owners, ensuring that every visit to our store,
+          whether online or in-person, is a positive and memorable experience.
+        </p>
+        <abbr title=""
+          >Our team of pet enthusiasts is always ready to help you choose the
+          best products for your beloved pets.</abbr
+        >
+        <br /><br />
+        <marquee bgcolor="#f1c1b2" loop="-1" scrollamount="5" width="100%">
+          Visit our store or shop online today and discover a wide range of
+          high-quality products for your beloved pets – from toys and treats to
+          grooming essentials. Every purchase supports your pet’s happiness and
+          well-being, ensuring they stay healthy, active, and loved.
+        </marquee>
+      </div>
+    </section>
+
+    <section
+      id="story"
+      class="section-p1"
+      style="background-color: #fff0f2; padding: 50px 20px"
+    >
+      <h2 style="text-align: center; color: #eea2bd">Our Story</h2>
+      <p
+        style="
+          text-align: center;
+          color: #555;
+          max-width: 800px;
+          margin: 20px auto;
+        "
+      >
+        Founded in 2015, our Pet Shop has grown from a small local store to a
+        trusted online destination for pet owners everywhere. Our philosophy is
+        simple: treat every pet like family, and provide products and services
+        that promote happiness, health, and love. We believe that a happy pet
+        makes a happy home, and we strive to bring smiles to pets and owners
+        alike every day.
+      </p>
+    </section>
+
+    <section id="about-pets" class="section-p1">
+      <h1>Visit Our <a href="#">Shop</a></h1>
+      <div class="video">
+        <video autoplay muted loop src="img/about/dog.mp4"></video>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section
+      id="team"
+      class="section-p1"
+      style="background-color: #fff0f2; padding: 50px 0"
+    >
+      <h2 style="text-align: center; color: #138163">Meet Our Team</h2>
+      <p style="text-align: center; color: #555">
+        A group of passionate pet lovers dedicated to making every pet happy.
+      </p>
+      <div
+        class="team-container"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 30px;
+          margin-top: 30px;
+        "
+      >
+        <div class="team-member" style="text-align: center; width: 200px">
+          <img
+            src="img/about/a1.jpeg"
+            alt="Team Member"
+            style="width: 100%; border-radius: 50%"
+          />
+          <h4 style="color: #138163">Anna Smith</h4>
+          <p style="color: #777">Store Manager & Pet Expert</p>
+        </div>
+        <div class="team-member" style="text-align: center; width: 200px">
+          <img
+            src="img/about/a2.jpeg"
+            alt="Team Member"
+            style="width: 100%; border-radius: 50%"
+          />
+          <h4 style="color: #138163">John Doe</h4>
+          <p style="color: #777">Customer Support & Trainer</p>
+        </div>
+        <div class="team-member" style="text-align: center; width: 200px">
+          <img
+            src="img/about/a3.jpeg"
+            alt="Team Member"
+            style="width: 100%; border-radius: 50%"
+          />
+          <h4 style="color: #138163">Lisa Brown</h4>
+          <p style="color: #777">Nutrition Specialist</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section
+      id="values"
+      class="section-p1"
+      style="background-color: #fdf0f4; padding: 50px 0"
+    >
+      <h2 style="text-align: center; color: #f06c9b">Our Core Values</h2>
+      <div
+        class="values-container"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 30px;
+          margin-top: 30px;
+        "
+      >
+        <div
+          class="value-box"
+          style="
+            background: #fff0f2;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px;
+            text-align: center;
+          "
+        >
+          <i class="fas fa-heart" style="color: #f06c9b; font-size: 30px"></i>
+          <h4 style="color: #f06c9b">Care & Love</h4>
+          <p style="color: #555">
+            We treat every pet like our own, with love and attention.
+          </p>
+        </div>
+        <div
+          class="value-box"
+          style="
+            background: #fff0f2;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px;
+            text-align: center;
+          "
+        >
+          <i class="fas fa-gem" style="color: #f06c9b; font-size: 30px"></i>
+          <h4 style="color: #f06c9b">Quality Products</h4>
+          <p style="color: #555">
+            We provide only the best, safest and healthiest products for pets.
+          </p>
+        </div>
+        <div
+          class="value-box"
+          style="
+            background: #fff0f2;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px;
+            text-align: center;
+          "
+        >
+          <i class="fas fa-users" style="color: #f06c9b; font-size: 30px"></i>
+          <h4 style="color: #f06c9b">Community</h4>
+          <p style="color: #555">
+            We support pet owners and foster a caring community for all.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Vladimira Perića Valtera 4, Novi Sad</p>
+        <p><strong>Phone:</strong> +069 668 459</p>
+        <p><strong>Hours:</strong> 10:00 - 22:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Pet Store. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+  <html></html>
+</html>
